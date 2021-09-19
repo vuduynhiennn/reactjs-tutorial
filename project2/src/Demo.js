@@ -12,18 +12,6 @@ var users = [
     name: 'Vu Ngoc Linh',
     class: 12,
     isFucked: 0
-  },
-  {
-    id: 1,
-    name: 'Vu Duy Lien',
-    class: 12,
-    isFucked: 0
-  },
-  {
-    id: 1,
-    name: 'Vu Duy Tuong',
-    class: 12,
-    isFucked: 0
   }
 ];
 
@@ -52,8 +40,7 @@ function show(product) {
 }
 
 function callne() {
-  return <h1> this is a h1 <br/>
-         </h1>
+  console.log("hello if you want to be a good programmer i want to fuck you");
 }
 
 function Demo() {
@@ -77,11 +64,7 @@ function Demo() {
         </div>
 
         <h1> 
-            { show(product.status) }
-            { callne() }
-            { product.status }
-
-            { show(product) }
+          
         </h1> 
         <hr/>
 
@@ -90,6 +73,9 @@ function Demo() {
 
         </div>
       </div>
+      <div>
+    <button type="submit" className="btn btn-primary mt-2" onclick={ callne() }>Submit</button>
+</div>
     </div>
   );
 }
