@@ -60,7 +60,6 @@ function Home() {
              backgroundImg="accessories.jpg"
              leftBtnText="Shop now"
         />
-
     </Container>
   );
 }
