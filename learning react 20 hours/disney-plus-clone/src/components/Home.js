@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import ImgSlider from './ImgSlider';
 import VIewers from './VIewers';
 import Movies from './Movies';
+// import db from '../firebase';
 
 function Home() {
+
+    useEffect(() => {
+        // db.collection('movies').onSnapshot(snapshot => {
+        //     console.log(snapshot.docs.map(doc => doc.data()));
+        // });
+    }, []);
+
+
   return (
       <Container> 
           <ImgSlider />

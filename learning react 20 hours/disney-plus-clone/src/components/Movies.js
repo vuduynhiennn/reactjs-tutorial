@@ -25,6 +25,66 @@ function Movies() {
             <img src='https://source.unsplash.com/random' />
             
         </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
+
+        <Wrap>
+            <img src='https://source.unsplash.com/random' />
+            
+        </Wrap>
       </Content>
     </Container>
   );
@@ -33,13 +93,16 @@ function Movies() {
 export default Movies;
 
 const Container = styled.div`
+  h4 {
+    margin-top: 40px;
+  }
 `;
 
 const Content = styled.div`
   display: grid;
   grid-gap: 25px;
   grid-template-columns: repeat(4, minmax(0,1fr));
-
+  margin: 20px 0;
 `;
 
 const Wrap = styled.div`

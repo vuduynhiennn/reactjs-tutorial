@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Details from './components/Details';
+import Login from './components/Login';
 
 import {
   BrowserRouter as Router,
@@ -18,6 +19,11 @@ function App() {
       <Router>
         <Header />
         <Switch>
+
+          <Route path="/login">
+            <Login />
+          </Route>
+
           <Route path="/details">
             <Details />
           </Route>
@@ -25,6 +31,7 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
+          
           </Switch>
       </Router>
     </div>
